@@ -1,3 +1,0 @@
-/Users/francosegura/Documents/Projects/Universidad/Programacion/programacion1110/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/francosegura/Documents/Projects/Universidad/Programacion/programacion1110/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/francosegura/Documents/Projects/Universidad/Programacion/programacion1110/cmake-build-debug/CMakeFiles/programacion1110.dir
