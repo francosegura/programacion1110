@@ -38,7 +38,7 @@ int obtenerNumeroMayorOIgualA(int numero)
 
 int obtenerNumeroEntre(int numeroUno, int numeroDos)
 {
-    int numeroEntre, error = 0;
+    int numeroIngresado, error = 0;
     do
     {
         if(error != 0)
@@ -47,9 +47,10 @@ int obtenerNumeroEntre(int numeroUno, int numeroDos)
             error = 0;
         }
         printf("\n\n\nIngrese entre %d y %d: ", numeroUno, numeroDos);
-        scanf("%d", &numeroEntre);
-        if(numeroEntre < numeroUno || numeroEntre > numeroDos) error = 1;
+        scanf("%d", &numeroIngresado);
+        fflush(stdin);
+        if(numeroIngresado < numeroUno || numeroIngresado > numeroDos) error = 1;
     }
-    while(numeroEntre < numeroUno || numeroEntre > numeroDos);
-    return numeroEntre;
+    while(numeroIngresado < numeroUno || numeroIngresado > numeroDos);
+    return numeroIngresado;
 }

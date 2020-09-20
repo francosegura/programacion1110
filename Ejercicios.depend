@@ -1,24 +1,26 @@
 # depslib dependency file v1.0
-1600634489 source:c:\users\franc\documents\projects\programacion1110\ejercicios.c
+1600644075 source:c:\users\franc\documents\projects\programacion1110\ejercicios.c
 	"Ejercicios.h"
 
-1600633784 c:\users\franc\documents\projects\programacion1110\ejercicios.h
+1600634720 c:\users\franc\documents\projects\programacion1110\ejercicios.h
 	<stdio.h>
 	<stdlib.h>
 	"utils.h"
 	"Funciones.h"
 
-1600633507 c:\users\franc\documents\projects\programacion1110\utils.h
+1600644437 c:\users\franc\documents\projects\programacion1110\utils.h
 	<stdio.h>
+	<stdlib.h>
 
-1600633498 c:\users\franc\documents\projects\programacion1110\funciones.h
-
-1600633387 source:c:\users\franc\documents\projects\programacion1110\funciones.c
-	"Funciones.h"
-
-1600633797 source:c:\users\franc\documents\projects\programacion1110\main.c
+1600643247 c:\users\franc\documents\projects\programacion1110\funciones.h
 	"Ejercicios.h"
 
-1600633459 source:c:\users\franc\documents\projects\programacion1110\utils.c
+1600645036 source:c:\users\franc\documents\projects\programacion1110\funciones.c
+	"Funciones.h"
+
+1600634700 source:c:\users\franc\documents\projects\programacion1110\main.c
+	"Ejercicios.h"
+
+1600644427 source:c:\users\franc\documents\projects\programacion1110\utils.c
 	"utils.h"
 

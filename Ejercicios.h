@@ -7,7 +7,7 @@
 #define COLOR_MAGENTA "\x1b[35m"
 #define COLOR_CYAN "\x1b[36m"
 #define COLOR_RESET "\x1b[0m"
-#define EJERCICIOS 1
+#define EJERCICIOS 2
 #define STRING_SIZE 100
 #include <stdio.h>
 #include <stdlib.h>
@@ -17,5 +17,6 @@
 int obtenerEjercicio(char ejercicios[][STRING_SIZE]);
 void ejecutarEjercicio(int ejercicioElegido);
 void ejercicioUno();
+void ejercicioDos();
 
 #endif // EJERCICIOS_H_INCLUDED
