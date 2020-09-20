@@ -16,6 +16,6 @@
 
 int obtenerEjercicio(char ejercicios[][STRING_SIZE]);
 void ejecutarEjercicio(int ejercicioElegido);
-//void ejercicioUno();
+void ejercicioUno();
 
 #endif // EJERCICIOS_H_INCLUDED

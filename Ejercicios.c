@@ -22,19 +22,27 @@ void ejecutarEjercicio(int ejercicioElegido)
 {
     switch(ejercicioElegido)
     {
-//    case 1:
-//        ejercicioUno();
-//        break;
+    case 1:
+        ejercicioUno();
+        break;
     default:
         printf("No existe el ejercicio %d", ejercicioElegido);
     }
 }
-//
-//void ejercicioUno()
-//{
-//    system("cls");
-//    printf(COLOR_BLUE "Ingrese un numero para obtener su factorial. Recuerde que el mismo no puede ser un numero negativo.\n\n\n" COLOR_RESET);
-//    int numero = obtenerEnteroPositivo();
-//    int factorial = obtenerFactorial(numero);
-//    printf("\n\nEl factorial del numero %d es: %d", numero, factorial);
-//}
+
+void ejercicioUno()
+{
+    system("cls");
+    printf("Tabla ASCII");
+    printf("\nDecimal\tOctal\tHexadecimal\tCaracter");
+    int i, j;
+    for(i = 33; i < 127; i++){
+        printf("\n");
+        for(j = 0; j < 4; j++) {
+            if(j == 0) printf("%d", i);
+            if(j == 1) printf("\t%o", i);
+            if(j == 2) printf("\t%X", i);
+            if(j == 3) printf("\t\t%c", i);
+        }
+    }
+}

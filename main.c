@@ -4,7 +4,7 @@ int main()
 {
     char ejercicios[EJERCICIOS][STRING_SIZE] =
     {
-        "Lista de ejercicios."
+        "Mostrar tabla ASCII."
     };
     char nombreEjercicio[STRING_SIZE] = "Nombre";
     int ejercicioElegido, flag = 0;
